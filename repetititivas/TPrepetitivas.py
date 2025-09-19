@@ -27,12 +27,14 @@ print (f"La suma de los numeros comprendidos entre {num1} y {num2} es de: ",suma
 #secuencia. El programa debe detenerse y mostrar el total acumulado cuando el usuario ingrese
 #un 0. 
 
-num=int(input("Ingrese un numero entero: "))
 suma=0
-
-while num != 0:
-    suma=num+num
+while True:
     num=int(input("Ingrese un numero entero: "))
+    if num == 0:
+     break
+   
+suma+=num
+   
 print("La suma total es de: ",suma) 
 
 
