@@ -1,5 +1,3 @@
 Lapicera,120.5,30
-Regla,180.0,45
-Cuaderno,200.0,25
-goma,34.0,34
-mochila,1500.0,23
+Regla,180,45
+Cuaderno,200,25
